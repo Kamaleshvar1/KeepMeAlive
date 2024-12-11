@@ -1,7 +1,7 @@
 import requests
 
 def keep_alive():
-    url = "https://hfm-apuf.onrender.com"  # Replace with your app's URL
+    url = "https://realtimechat-django.onrender.com"  # Replace with your app's URL
     try:
         response = requests.get(url)
         if response.status_code == 200:
